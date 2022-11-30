@@ -101,7 +101,8 @@ public class WindowHandles {
 
     public void MultipleWin() throws InterruptedException {
         driver.findElement(By.id("newWindowsBtn")).click();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
+
 
         //Multiple windows
         parentWin = driver.getWindowHandle();
